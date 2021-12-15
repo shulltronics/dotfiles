@@ -5,8 +5,9 @@ import XMonad.Hooks.EwmhDesktops
 import XMonad.Hooks.DynamicLog
 import XMonad.Layout.Spacing
 
-myLayout = spacingWithEdge 10 $ tiled ||| Mirror tiled ||| Full
+myLayout = spacingWithEdge sp $ tiled ||| Mirror tiled ||| Full
     where
+        sp       = 6
         tiled    = Tall nmaster delta ratio
         nmaster  = 1
         ratio    = 1/2
