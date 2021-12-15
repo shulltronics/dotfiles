@@ -7,7 +7,7 @@ else
     xrdb -DSOLARIZED_DARK -merge ~/.Xresources
 fi
 
-xmodmap ~/.Xmodmap
+xmodmap ~/.xmodmap
 #sudo /home/carsten/scripts/system/ui/mag.py &
 export _JAVA_AWT_WM_NONREPARENTING=1
 touchegg &
