@@ -1,5 +1,5 @@
 xcompmgr -c &
-feh --bg-max ~/Media/Photos/Airstream-in-Big-Bend.jpg
+feh --bg-max ~/Media/Photos/Ambika_Glitch.jpg
 
 if [[ -n $HI ]]; then
     xrdb -DSOLARIZED_LIGHT -merge ~/.Xresources

@@ -17,3 +17,6 @@ syntax on
 set clipboard=unnamedplus
 " Expands tabs into four spaces
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+
+" Fold code based on indent
+set foldmethod=indent
